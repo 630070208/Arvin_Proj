@@ -1,0 +1,652 @@
+.bet_right {
+	width: 824px;
+	padding: 10px;
+	float: right;
+	background: url(images/bet_content-bg.png) repeat;
+}
+.hs {
+	color: #fff244;
+}
+/**
+ * 头部彩种 开奖 部分
+ */
+.lottery {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 10px;
+}
+.lottery .left_box {
+	background: url(images/bet_number-show_bg.jpg) no-repeat;
+	width: 540px;
+	height: 200px;
+	float: left;
+}
+
+.lottery .left_box .lo_title {
+	height: 42px;
+	line-height: 42px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	color: #9e9786;
+	font-size: 12px;
+}
+.lottery .left_box .lo_title h1 {
+	position: absolute;
+	top: 0;
+	left: 13px;
+	color: #d9cc3a;
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+}
+
+.lottery .left_box .lo_title .analysis {
+	position: absolute;
+	top: 0;
+	right: 13px;
+	text-decoration: underline;
+}
+
+/**
+ * 开奖号码 
+ */
+.lottery .left_box .num_open {
+	height: 100px;
+	overflow: hidden;
+}
+.lottery .left_box .num_open ul {
+	padding: 16px 0 0 52px;
+}
+.lottery .left_box .num_open ul li {
+	background: url(images/bet_large-ball.png) no-repeat;
+	width: 69px;
+	height: 69px;
+	line-height: 69px;
+	font-size: 32px;
+	color: #000;
+	text-align: center;
+	float: left;
+	margin-right: 23px;
+	font-family: "Microsoft Yahei";
+}
+/**
+ * 开奖号码 结束
+ */
+
+/**
+ * 彩期 和剩余时间
+ */
+.lottery .left_box .form {
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 700;
+	color: #d16e1a;
+}
+.lottery .left_box .d_box {
+	height: 38px;
+	line-height: 32px;
+	position: relative;
+	color: #9e9786;
+	font-size: 12px;
+}
+.lottery .left_box .d_box .current-stage {
+	position: absolute;
+	top: 0;
+	left: 13px;
+}
+.lottery .left_box .d_box .countdown {
+	background: url(images/bet_clock-icon.png) no-repeat 0 10px;
+	padding-left: 20px;
+	position: absolute;
+	top: 0;
+	right: 13px;
+}
+
+#count_down {
+	margin-left: 12px;
+	font-size: 18px;
+}
+#count_down div { float:left;}
+
+
+/**
+ * 彩期历史
+ */
+.lottery .history_open {
+	float: right;
+	width: 268px;
+	height: 198px;
+	overflow: hidden;
+	border: 1px solid #1a1a1a;
+	background-color: #000;
+}
+.lottery .history_open .history_open_title {
+	background: url(images/bet_lskj_title.jpg) no-repeat;
+	height: 32px;
+	overflow: hidden;
+}
+.lottery .history_open .cai_co {
+	padding-top: 6px;
+}
+.lottery .history_open .cai_co ul {
+	overflow: hidden;
+	zoom: 1;
+	padding: 2px 15px;
+	height: 28px;
+}
+.stage {
+	text-align: center;
+	float: left;
+	color: #9e9786;
+	font-size: 13px;
+	font-family: Arial;
+	width: 100px;
+	text-align: center;
+}
+.haoma1 {
+	float: right;
+	width: 120px;
+	text-align: center;
+	height: 20px;
+	overflow: hidden;
+}
+.haoma1 span {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-family: Arial;
+	display: inline-block;
+	margin: 0 2px;
+	font-weight: bold;
+}
+
+
+/**
+ * 彩期信息与开奖历史结束
+ */
+
+
+/**
+ * 中间部分，旋球
+ */
+.operate {
+	background: url(images/bet_right_repeat-xian.jpg) repeat-y;
+}
+
+/**
+ * 选项卡
+ */
+.Menubox_title {
+	background: url(images/bet_caiz-nav_title.jpg) no-repeat center top;
+	height: 41px;
+}
+.Menubox_title ul {
+	padding-left: 5px;
+}
+
+#lotteryType li {
+	position: relative;
+}
+.Menubox_title ul li {
+	float: left;
+	color: #bbb;
+	font-size: 14px;
+	display: block;
+	background: url(images/bet_caiz-nav_title_xian.png) no-repeat top right;
+	height: 41px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.Menubox_title ul li span {
+	padding: 0 15px;
+	cursor: pointer;
+}
+.Menubox_title ul li.hover {
+	float: left;
+	height: 41px;
+	background: url(images/bet_caiz-nav_hover.png) no-repeat left top;
+}
+.Menubox_title ul li.hover span {
+	float: left;
+	height: 41px;
+	background: url(images/bet_caiz-nav_hover.png) no-repeat right top;
+	color: #f4e843;
+	padding: 0 15px 0 0;
+	margin: 0 0 0 15px;
+}
+
+/**
+ * 选项卡  结束
+ */
+#lotteryDetail {
+	background: url(images/bet_right_f-xian.jpg) no-repeat center bottom;
+	padding-bottom: 10px;
+}
+/**
+ * 投注玩儿法
+ */
+.minitype {
+	color: #9e9786;
+	padding: 8px 25px;
+}
+.minitype .item {
+	overflow: hidden;
+	zoom: 1;
+	padding: 4px 50px 0 0;
+}
+.minitype .item h5 {
+	font-size: 12px;
+	font-weight: 100;
+	float: left;
+	height: 28px;
+}
+.minitype .item label {
+	margin-left: 8px;
+	cursor: pointer;
+}
+.minitype .item .li {
+	color: #888;
+	float: left;
+	margin-bottom: 5px;
+	line-height: 22px;
+	height: 22px;
+	background: url(images/bet_tuozhu-bg.png) no-repeat left -32px;
+}
+.minitype .item .li_hover {
+	color: #f4e843;
+	float: left;
+	margin-bottom: 5px;
+	line-height: 22px;
+	height: 22px;
+	background: url(images/bet_tuozhu-bg.png) no-repeat left 0;
+}
+.minitype .item .li_hover span {
+	float: left;
+	height: 22px;
+	background: url(images/bet_tuozhu-bg.png) no-repeat right 0;
+	padding: 0 10px 0 0;
+	margin: 0 0 0 10px;
+}
+.minitype .item .li span {
+	float: left;
+	height: 22px;
+	background: url(images/bet_tuozhu-bg.png) no-repeat right -32px;
+	padding: 0 10px 0 0;
+	margin: 0 0 0 10px;
+}
+/**
+ * 投注玩儿法 结束
+ */
+/**
+ * 投注玩儿法 说明
+ */
+.play-explain {
+	color: #9e9786;
+	padding: 0 25px;
+}
+.play-explain span {
+	cursor: pointer;
+	margin-left: 10px;
+}
+.oanger {
+	color: #d16e1a;
+}
+#lt_example_div, #lt_count_div, #lt_help_div {
+	background: #201306;
+	border: 1px solid #392311;
+	color: #7b4d26;
+	display: none;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 10px 0 0;
+	overflow: hidden;
+	padding: 5px 8px;
+	position: absolute;
+	text-align: left;
+	width: 200px;
+}
+/**
+ * 投注玩儿法 结束 
+ */
+.gap-line {
+	background: url(images/bet_right_gap-line.png) no-repeat center center;
+	width: 810px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+
+/**
+ * 选球区  
+ */
+#lotteryDetail .grayContent {
+}
+.grayContent {
+	padding: 0 18px 0 25px;
+}
+
+#lotteryDetail .each {
+	clear: both;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px 0;
+}
+.clearfix {
+	display: block;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#lotteryDetail .each .name {
+	float: left;
+	width: 64px;
+	height: 32px;
+	line-height: 24px;
+	font-size: 13px;
+	color: #f4e843;
+	_display: inline;
+	margin: 5px 10px 4px 0;
+	background: url(images/bet-bg.png) no-repeat 0 -63px;
+}
+.floatL {
+	float: left;
+}
+#lotteryDetail .each .numList li {
+	cursor: pointer;
+	float: left;
+	_display: inline;
+	margin: 0 4px 8px;
+	background: url(images/bet-bg.png) no-repeat 0 -147px;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	overflow: hidden;
+	color: #000;
+}
+/**
+ * 	球号选中状态
+ */
+#lotteryDetail .each .numList .selected {
+	cursor: pointer;
+	float: left;
+	_display: inline;
+	margin: 0 4px 8px;
+	background: url(images/bet-bg.png) no-repeat 0 -105px;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fff;
+}
+
+.btnList {
+	float: right;
+}
+#lotteryDetail .each .selectType {
+	cursor: pointer;
+	float: left;
+	_display: inline;
+	margin: 0 4px;
+	background: url(images/bet-bg.png) no-repeat 0 -189px;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 16px;
+	color: #f4e843;
+	font-weight: normal;
+}
+#lotteryDetail .each .bigBt li {
+	background: url(images/bet-bg.png) no-repeat -43px -147px;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden;
+}
+#lotteryDetail .each .bigBt .selected {
+	background: url(images/bet-bg.png) no-repeat -43px -105px;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+}
+.grayBet {
+	overflow: hidden;
+	zoom: 1;
+	padding: 0 18px 0 25px;
+}
+.grayBet .fl {
+	float: left;
+	color: #9e9786;
+	padding-top: 8px;
+}
+
+.grayBet .fr {
+	float: right;
+}
+
+.lottery_list {
+	padding: 0px 18px 0 25px;
+	height: 108px;
+	overflow: hidden;
+	zoom: 1;
+}
+.num_input {
+	background: url(images/bet-bg.png) no-repeat 0 -259px;
+	width: 50px;
+	height: 24px;
+	line-height: 24px;
+	border: 0;
+	color: #9e9786;
+	text-align: center;
+}
+.formOk {
+	background: url(images/bet-bg.png) no-repeat 0 -293px;
+	width: 120px;
+	height: 35px;
+	border: 0;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.lottery_list .whiteDetail {
+	float: left;
+	background: #281f18 url(/images/scgold/bet_display-kuang.png) no-repeat;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+table {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-color: gray;
+}
+.tjBt_r .tjBt {
+	background: url(images/bet-bg.png) no-repeat 0 -375px;
+	width: 100px;
+	height: 100px;
+	display: block;
+	text-indent: -9999px;
+	border: 0;
+}
+
+.grayBet .fl span.curr {
+	background: url(images/bet-bg.png) no-repeat 0 -224px;
+}
+.grayBet .fl span {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	line-height: 24px;
+	color: #f4e843;
+	margin-left: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: "Microsoft Yahei";
+}
+.layout_jixian {
+	float: left;
+	margin: 0 0 0 10px;
+}
+.layout_jixian input {
+	width: 80px;
+	height: 27px;
+	background: url(images/bet-bg.png) no-repeat 0 -338px;
+	margin-bottom: 6px;
+	border: 0;
+	color: #9e9786;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+.tjBox {
+	padding: 5px 8px 15px 25px;
+	overflow: hidden;
+	zoom: 1;
+	color: #9e9786;
+}
+.tjBox .zh_box {
+	width: 200px;
+	float: right;
+}
+.tjBt_r {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+
+/*
+ * 追号部分 开始
+ */
+.wyzhContent {
+	padding: 5px 18px 15px 25px;
+}
+#lt_trace_label a:hover {
+	text-decoration: none;
+}
+#lt_trace_label .current {
+	background: url(images/zh_title-bg.png) no-repeat;
+	color: #d16e1a;
+}
+#lt_trace_label {
+	background: url(images/zh_title-bg.png) repeat-x 0 -42px;
+	height: 32px;
+	color: #888;
+	line-height: 32px;
+}
+#lt_trace_label li {
+	width: 92px;
+	float: left;
+	text-align: center;
+	height: 42px;
+	cursor: pointer;
+}
+#lt_trace_label a {
+	width: 92px;
+	float: left;
+	text-align: center;
+	height: 42px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+
+
+.wyzhContent .head {
+	padding: 10px 0 10px 10px;
+	line-height: 30px;
+	margin-bottom: 1px;
+	color: #9e9786;
+}
+.wyzhContent .head .formSC {
+	float: right;
+	background: url(images/zh_btn.png) no-repeat;
+	width: 102px;
+	height: 34px;
+	text-indent: -9999px;
+	overflow: hidden;
+	border: 0;
+	cursor: pointer;
+	_display: inline;
+}
+
+.table_line {
+	width: 100%;
+	height: 32px;
+	line-height: 34px;
+	color: #979080;
+	font-size: 12px;
+}
+.table_line th, .table_line td {
+vertical-align: middle;
+text-align: left;
+background: url(images/bet_display-kuang_xian.png) repeat-x 0 bottom;
+border-right: 1px solid #100d0a;
+border-left: 1px solid #39312a;
+}
+
+.table_line td {
+text-align: center;
+}
+
+.zhlist {
+	height: 172px;
+	overflow: scroll;
+	overflow-x: hidden;
+	background-color: #272727;
+}
+
+.formTable {
+	border-left: 1px solid #444;
+	color: #9e9786;
+}
+.formTable th, .formTable td {
+	border-top: 1px solid #444;
+	border-right: 1px solid #444;
+	padding: 4px 10px;
+	vertical-align: middle;
+}
+.input03 {
+	background: url(images/bet-bg.png) no-repeat -50px -259px;
+	font-size: 14px;
+	width: 70px!important;
+	height: 24px;
+	border: none;
+	color: #FFF;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 3px;
+}
+/**
+ * footer
+ */
+.footer {
+	width: 100%;
+	background: url(images/footer_bg.png) no-repeat center bottom;
+	padding: 25px 0 15px 0;
+}
+.footer p {
+	text-align: center;
+	color: #714f0e;
+	line-height: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer a {
+	color: #714f0e;
+	text-decoration: underline;
+}
